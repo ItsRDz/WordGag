@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Word Gag</string>
+    <string name="noun">Enter singular noun</string>
+    <string name="verb">Enter progressive verb (-ing)</string>
+    <string name="adjective">Enter descriptive adjective</string>
+    <string name="submitButton">Start Conversation!</string>
+    <string name="info">Richard Depaz</string>
+    <string name="clearButton">Clear</string>
+    <string name="returnButton">Exit</string>
+    <string name="nextButton">Next</string>
+    <string name="image">Character image</string>
+    <string name="backButton">Back</string>
+    <string name="title">Word Gag logo</string>
+</resources>

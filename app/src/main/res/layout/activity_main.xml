@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.hfad.wordgag.MainActivity">
+
+    <ImageView
+        android:id="@+id/title"
+        android:contentDescription="@string/title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_2"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+    <!--<TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFCC00"
+        android:textSize="50sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Word Gag!" />-->
+
+    <EditText
+        android:id="@+id/noun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/title"
+        android:textColorHint="#c4c2c1"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:hint="@string/noun" />
+
+    <EditText
+        android:id="@+id/verb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noun"
+        android:textAlignment="center"
+        android:textColorHint="#c4c2c1"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:hint="@string/verb" />
+
+    <EditText
+        android:id="@+id/adjective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verb"
+        android:textAlignment="center"
+        android:textColorHint="#c4c2c1"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:hint="@string/adjective" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adjective"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_rounded_corners"
+        android:textColor="@android:color/white"
+        android:onClick="onSubmit"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="@string/submitButton" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_rounded_corners"
+        android:textColor="@android:color/white"
+        android:onClick="onClear"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="@string/clearButton" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/info" />
+</RelativeLayout>
