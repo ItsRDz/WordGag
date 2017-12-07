@@ -1,4 +1,4 @@
 # Word Gag
-A phrasal template word game for Android devices inspired by Mad Libs.
+A phrasal template word game inspired by Mad Libs for Android devices.
 <br />
 (Tools used: Java)
